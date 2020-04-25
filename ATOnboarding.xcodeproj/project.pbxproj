@@ -12,8 +12,8 @@
 
 /* Begin PBXFileReference section */
 		81905E2D2454570C004C2C7D /* ATOnboarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ATOnboarding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		81905E302454570C004C2C7D /* ATOnboarding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATOnboarding.h; sourceTree = "<group>"; };
-		81905E312454570C004C2C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81905E302454570C004C2C7D /* ATOnboarding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ATOnboarding.h; path = ../Sources/ATOnboarding.h; sourceTree = "<group>"; };
+		81905E312454570C004C2C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Supporting Files/Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +46,27 @@
 		81905E2F2454570C004C2C7D /* ATOnboarding */ = {
 			isa = PBXGroup;
 			children = (
+				81905E59245465CB004C2C7D /* Example */,
+				81905E5824546580004C2C7D /* Sources */,
 				81905E302454570C004C2C7D /* ATOnboarding.h */,
 				81905E312454570C004C2C7D /* Info.plist */,
 			);
 			path = ATOnboarding;
+			sourceTree = "<group>";
+		};
+		81905E5824546580004C2C7D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sources;
+			path = ../Sources;
+			sourceTree = "<group>";
+		};
+		81905E59245465CB004C2C7D /* Example */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
